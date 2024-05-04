@@ -1,9 +1,0 @@
-= Старт
-:showtitle:
-:page-navtitle: First Entry
-:page-excerpt: Excerpt goes here.
-:page-root: ../../../
-
-== Первая попытка
-
-Добро пожаловать! 

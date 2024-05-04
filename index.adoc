@@ -1,14 +1,35 @@
-= Congratulations!
+= AsciiDoc Evangelist
 :showtitle:
-:page-title: Jekyll AsciiDoc Quickstart
-:page-description: A forkable blog-ready Jekyll site using AsciiDoc
+:page-title: AsciiDoc Evangelist
+:page-description: Сайт предназначен для продвижения AsciiDoc на русском языке
 
 Добро пожаловать!
 
-=== Reference documentation
+Сайт предназначен для продвижения языка разметки AsciiDoc на русском языке!
 
-The following links will help with detailed explanations on Jekyll and AsciiDoc.
+[IMPORTANT]
+====
+Сайт находится в процессе разработки:
+
+. Дата создания сайта: 05.05.2024
+. Первое наполнение контентом: 05.05.2024
+====
+
+Сайт полностью функционирует на AsciiDoc и собран на Jekyll. Сделать fork репозитория для генерации собственного сайта можно по ссылке:
+
+link:https://github.com/asciidoctor/jekyll-asciidoc-quickstart[Jekyll AsciiDoc Quickstart by mojavelinux]
+
+[IMPORTANT]
+====
+AsciiDoc  распространяется по лицензии MIT.
+
+Copyright (C) 2015-present John Ericksen and the Asciidoctor Project
+====
+
+== Полезные ссылки
+
+Следующие ссылки помогут получить подробные объяснения по Jekyll и AsciiDoc:
 
 * https://jekyllrb.com[Jekyll]
-* https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/[AsciiDoc Quick Reference]
-* https://asciidoctor.org[Asciidoctor]
+* https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/[Краткое руководство по синтаксису AsciiDoc]
+* https://asciidoctor.org[Сайт процессора Asciidoctor]
