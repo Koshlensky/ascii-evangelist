@@ -1,0 +1,65 @@
+= Jekyll AsciiDoc Quickstart
+:experimental:
+ifndef::env-github[:toc:]
+
+The Jekyll AsciiDoc Quickstart project provides a quick way to set up an AsciiDoc-based website using GitHub's publishing infrastructure.
+This project combines the power of AsciiDoc with an elegant CSS foundation and a blog-ready template.
+Since it's a repository template, all you need to do is create a new repository from this repository to create your website.
+
+The project provides a GitHub Actions workflow that publishes your website whenever changes are pushed to the repository.
+The workflow watches for commits on the *main* (or *master* branch), automatically runs the Jekyll build with the AsciiDoc plugin enabled, and pushes the generated content to the *gh-pages* branch, from which it is hosted.
+
+You can find a live website created from this repository at https://asciidoctor.github.io/jekyll-asciidoc-quickstart.
+
+== Create Your Website
+
+=== Use the Template and Activate GitHub Pages
+
+. Click the green btn:[Use this template] button in the upper right corner of GitHub and select *Create a new repository* to create your own copy of this repository (i.e., fork).
+** After the process is complete, you'll be directed to your fork.
+** The first GitHub Actions workflow will fail since GitHub Pages is not yet enabled in your fork.
+. Access the menu:Settings[] tab, then the menu:Pages[] menu on the left.
+. In the *Source* field, select the btn:[Github Actions] option.
+. Click the btn:[Save] button to apply the changes.
+. Navigate to menu:Actions[] tab, click "Publish to GitHub Pages", click btn:[Run Workflow], then click btn:[Run workflow].
+
+=== Verify the Build/Publish
+
+After every push, the GitHub Action workflow is automatically started to build and publish your website.
+That takes a while.
+You can look for ✅ at the top of your repository home page.
+
+If you can load the URL at `\https://github-username.github.io/name-of-repository`, then you have successfully completed the basic configuration.
+Start writing blog posts and enjoy the AsciiDoc difference, regardless of what device you choose: computer, tablet, or mobile.
+
+== Run your Website Locally
+
+You must install some software to build and serve your website locally.
+The requirements on the https://jekyllrb.com/docs/installation/[Jekyll Installation] page describe how to install both Ruby and RubyGems.
+
+If you would like to work offline first, consider checking your `Gemfile` for the versions of your gem sources.
+If the `jekyll serve` command fails, it likely means you don't have the necessary gems installed
+You can check whether the `jekyll` gem is installed locally by running `gem list --local | grep "jekyll"`.
+
+== GitHub Pages and AsciiDoc
+
+GitHub Pages does not (yet) whitelist the jekyll-asciidoc plug-in, so you can not write `.adoc` posts and have them instantly published like Markdown posts do.
+However, the only additional thing we need is the link:.github/workflows/publish.yml[publish.yml] workflow which is already configured in this repository.
+You don't have to change it, unless you want to perform some customization in the build/publish process.
+
+=== Help Get AsciiDoc Whitelisted for GitHub Pages
+
+You can help change the lack of native AsciiDoc support by creating a support case through https://github.com/support.
+This way, we won't need a GitHub Action workflow anymore to publish AsciiDoc websites.
+
+Tell the GitHub team that you want the choice to write in AsciiDoc, and have it handled the same way Markdown is when pushed to your GitHub Page.
+
+Your voice counts: make it heard!
+
+== Repository Structure
+
+The repository requires the following structure to work correctly:
+
+* *main* or *master* (legacy), for markup sources and configuration.
+This branch can be named anything you choose, however *main* is a general standard used in Jekyll blogs.
+* _.github/workflows/publish.yml_ GitHub Action workflow to build the site and publish it to GitHub Pages.
