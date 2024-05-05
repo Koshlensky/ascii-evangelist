@@ -56,7 +56,7 @@ a promising direction before, at the moment it holds potential in the field of a
 . управление полученной оценки образа в ВР для ее обновления;
 . обновление оценочного цикла до получения искомого результата.
 
-image::/images/1-nn-ru-ovsm.png[width=80%, align="center"]
+image::images/1-nn-ru-ovsm.png[width=80%, align="center"]
 
 [.text-center]
 Рис. 1. Схема итерации постобработки образов с оценочной системой
