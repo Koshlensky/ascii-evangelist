@@ -1,6 +1,6 @@
 = Стайлгайд по работе с AsciiDoc
 :showtitle:
-:page-navtitle: First Entry
+:page-navtitle: Стайлгайд по работе с AsciiDoc
 :page-excerpt: Excerpt goes here.
 :page-root: ../../../
 
@@ -8,20 +8,18 @@
 
 В статье рассмотрены:
 
-
-
-. xref:style-guide.adoc#General_requirements[Общие требования к работе в Asciidoc]
-. xref:style-guide.adoc#Best_practices[Лучшие практики]
-. xref:style-guide.adoc#Headings1[Заголовки]
-. xref:style-guide.adoc#Images[Изображения]
-. xref:style-guide.adoc#Lists[Списки]
-. xref:style-guide.adoc#References[Ссылки]
-. xref:style-guide.adoc#Formulas[Формулы]
-. xref:style-guide.adoc#Admonitions[Примечания]
-. xref:style-guide.adoc#Code[Код]
-. xref:style-guide.adoc#Anchors[Якоря]
-. xref:style-guide.adoc#Tables[Таблицы]
-. xref:style-guide.adoc#Main_colors[Управление цветом]
+. xref:2024-05-05-first-entry.adoc#General_requirements[Общие требования к работе в Asciidoc]
+. xref:2024-05-05-first-entry.adoc#Best_practices[Лучшие практики]
+. xref:2024-05-05-first-entry.adoc#Headings1[Заголовки]
+. xref:2024-05-05-first-entry.adoc#Images[Изображения]
+. xref:2024-05-05-first-entry.adoc#Lists[Списки]
+. xref:2024-05-05-first-entry.adoc#References[Ссылки]
+. xref:2024-05-05-first-entry.adoc#Formulas[Формулы]
+. xref:2024-05-05-first-entry.adoc#Admonitions[Примечания]
+. xref:2024-05-05-first-entry.adoc#Code[Код]
+. xref:2024-05-05-first-entry.adoc#Anchors[Якоря]
+. xref:2024-05-05-first-entry.adoc#Tables[Таблицы]
+. xref:2024-05-05-first-entry.adoc#Main_colors[Управление цветом]
 
 [#General_requirements]
 == Общие требования к работе в Asciidoc
@@ -193,7 +191,12 @@ print('Hey! your name is' + name)
 == Название раздела на который хотим сослаться
 ----
 
-Чтобы сослаться на якорь, добавьте его идентификатор в конце ссылки xref, но до квадратных скобок []. Например, xref:адок-файл_1#anchor_1[] (сослались на якорь [#anchor_1] в файле адок-файл_1.adoc).
+Чтобы сослаться на якорь, добавьте его идентификатор в конце ссылки xref, но до квадратных скобок []. Например:
+
+[source]
+----
+xref:адок-файл_1#anchor_1[] #сослались на якорь [#anchor_1] в файле адок-файл_1.adoc.
+----
 
 [#Tables]
 == Таблицы

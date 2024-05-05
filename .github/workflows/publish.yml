@@ -1,14 +1,15 @@
-# see https://github.com/actions/starter-workflows/blob/main/pages/jekyll.yml for reference
+# Файл содержит конфигурацию GitHub Actions для автоматической публикации Jekyll-сайта на GitHub Pages при каждом обновлении кода в вашем репозитории.
+# Смотрите https://github.com/actions/starter-workflows/blob/main/pages/jekyll.yml для справки
 name: Publish to GitHub Pages
 on:
   push:
     branches: [main, master]
-  # Allows you to run this workflow manually from the Actions tab
+  # Позволяет запустить этот рабочий процесс вручную на вкладке "Действия".
   workflow_dispatch:
 concurrency:
   group: github-pages
   cancel-in-progress: false
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+# Устанавливает разрешения для GITHUB_TOKEN, чтобы разрешить развертывание на страницах GitHub.
 permissions:
   contents: read
   pages: write

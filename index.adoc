@@ -1,4 +1,4 @@
-= AsciiDoc Evangelist
+= Вступление
 :showtitle:
 :page-title: AsciiDoc Evangelist
 :page-description: Сайт предназначен для продвижения AsciiDoc на русском языке

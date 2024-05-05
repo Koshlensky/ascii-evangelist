@@ -1,3 +1,5 @@
+<!-- Если вам нужно внести изменения в общую структуру или дизайн сайта, такие как шапка, футер, боковая панель и т.д., редактируйте "default.html". -->
+
 <!doctype html>
 <!--[if IE 9]>
 <html class="lt-ie10" lang="en"> <![endif]-->
@@ -53,18 +55,16 @@
 
     <aside class="large-3 columns">
 
-        <h4>Posts</h4>
+        <h4>Блог</h4>
         <ul id="posts" class="posts nav">
-            {% for post in site.posts limit: 5 %}
+            {% for post in site.posts limit: 10 %}
             <li><a href="{{ post.url | prepend:site.baseurl }}">{{ post.navtitle }}</a></li>
             {% endfor %}
         </ul>
 
         <div class="panel">
-            <h5>Featured</h5>
-
-            <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon
-                nulla pork belly cupidatat meatloaf cow.</p>
+            <h5>Информация по блогу</h5>
+            <p>Блог в процессе разработки. <br> Статьи в блоге демонстрируют основные подходы по работе с AsciiDoc на конкретных примерах.</p>
         </div>
 
     </aside>
@@ -82,7 +82,7 @@
         <hr>
         <div class="row">
             <div class="large-12 columns">
-                <p>Footer</p>
+                <p>Автор: <a href="https://github.com/Koshlensky">Nick Koshlensky</a></p>
             </div>
         </div>
     </div>
