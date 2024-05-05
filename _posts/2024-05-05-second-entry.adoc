@@ -2,7 +2,6 @@
 :showtitle:
 :page-navtitle: Статья по нейронным сетям на AsciiDoc
 :page-excerpt: Excerpt goes here.
-:imagesdir: /images
 :page-root: ../../../
 
 [NOTE]
