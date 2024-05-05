@@ -15,13 +15,13 @@
 . Первое наполнение контентом: 05.05.2024
 ====
 
-Сайт полностью функционирует на AsciiDoc и собран на Jekyll. Сделать fork репозитория для генерации собственного сайта можно по ссылке:
+HTML созданы из AsciiDoc и собраны в Jekyll. Сделать fork репозитория для генерации аналогичного сайта можно по ссылке:
 
 link:https://github.com/asciidoctor/jekyll-asciidoc-quickstart[Jekyll AsciiDoc Quickstart by mojavelinux]
 
 [IMPORTANT]
 ====
-AsciiDoc  распространяется по лицензии MIT.
+AsciiDoc распространяется по лицензии MIT.
 
 Copyright (C) 2015-present John Ericksen and the Asciidoctor Project
 ====

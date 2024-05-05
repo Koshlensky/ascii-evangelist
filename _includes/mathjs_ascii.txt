@@ -1,0 +1,21 @@
+{::options math_engine="nil" /}
+<!-- conversion in "nil" case: for $$ inline: <span class="kdmath">$...$</span>, for $$ block: <div class="kdmath">$$
+...
+$$</div> -->
+
+<script type="text/javascript">
+  //skipTags: ["div"] means skip all - see <div class="wrapper"> 
+  window.MathJax = {
+    tex2jax: {skipTags: ["div","p","script","noscript","style","textarea","pre","code"]
+     ,ignoreClass: "kdmath"}
+   ,asciimath2jax: {
+      delimiters: [['$$','$$'],['$','$']]
+     ,skipTags: ["span","script","noscript","style","textarea","pre","code"]
+     ,processClass: "kdmath"
+    }
+  };
+  //skip <span> but not <span class="kdmath">
+  //https://docs.mathjax.org/en/v2.7-latest/options/preprocessors/asciimath2jax.html
+</script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/latest.js?config=AM_CHTML"></script>
+

@@ -1,0 +1,10 @@
+<!-- Jekyll Mathjax support - TeX2jax (`$ `...` $`, `$$`...`$$`):  add % include mathjs_tex % in curly brackets at the end of the markdown file -->
+<!--    tex2jax: {inlineMath: [['$','$']],displayMath: [['$$','$$']],processEscapes:true} -->
+<!--in tex2jax: displayMath: [['$$','$$']] as default can be removed -->
+
+<script type="text/javascript">
+  window.MathJax = {
+    tex2jax: {inlineMath: [['$ ',' $']],displayMath: [['$$','$$']],processEscapes:true}
+  };
+</script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/latest.js?config=TeX-MML-AM_CHTML"></script>

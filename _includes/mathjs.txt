@@ -1,0 +1,8 @@
+<!--experimental (obsolete) Jekyll Mathjax support - AsciiMath2jax (`''` or `€€`), TeX2jax (`$` or `\\(`, `$$` or `\\[`):  add % include mathjs % in curly brackets at the end of the markdown file -->
+<script type="text/javascript">
+  window.MathJax = {
+    tex2jax: {inlineMath: [['$','$'],['\\(','\\)']],displayMath: [['$$','$$'],['\\[','\\]']],processEscapes:true}, 
+    asciimath2jax: {delimiters: [['€€','€€'],["''","''"],["’’","‘’"],["‘’","’’"],["‘’","‘’"],["‘‘","’’"]]}
+  };
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>

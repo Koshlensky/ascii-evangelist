@@ -1,4 +1,4 @@
-title: Jekyll AsciiDoc Quickstart
+title: AsciiDoc Evangelist
 # Раскомментируйте /blog если хотите разместить сайт в подпапке, например http://example.com/blog
 #baseurl: /blog
 description: Проект Jekyll AsciiDoc Quickstart - это помощь в создании собственного сайта, размещенного на GitHub, с контентом на основе AsciiDoc.
@@ -16,3 +16,5 @@ asciidoctor:
     idseparator: _
     stylesdir: css
     source-highlighter: coderay
+  # Build settings
+  # markdown: kramdown

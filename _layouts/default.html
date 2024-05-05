@@ -1,9 +1,9 @@
 <!-- Если вам нужно внести изменения в общую структуру или дизайн сайта, такие как шапка, футер, боковая панель и т.д., редактируйте "default.html". -->
-
 <!doctype html>
 <!--[if IE 9]>
 <html class="lt-ie10" lang="en"> <![endif]-->
 <html class="no-js" lang="en" data-useragent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,9 +18,11 @@
     <link rel="stylesheet" href="{{page.root}}css/asciidoctor.css">
     <script src="{{page.root}}js/vendor/modernizr.js"></script>
     <script src="{{page.root}}js/toc.js"></script>
+    <!-- Подключение MathJax для работы формул LaTeX -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
-
 
 <!-- Nav Bar -->
 
@@ -36,7 +38,6 @@
     </ul>
 </nav>
 <!-- End Nav -->
-
 
 <!-- Main Page Content and Sidebar -->
 
@@ -73,7 +74,6 @@
 </div>
 
 <!-- End Main Content and Sidebar -->
-
 
 <!-- Footer -->
 
