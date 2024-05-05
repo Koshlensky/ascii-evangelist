@@ -59,6 +59,10 @@ a promising direction before, at the moment it holds potential in the field of a
 
 image::{imagesdir}/1-nn-ru-ovsm.png[width=80%, align="center"]
 
+image::1-nn-ru-ovsm.png[width=80%, align="center"]
+
+image::../images/1-nn-ru-ovsm.png[width=80%, align="center"]
+
 [.text-center]
 Рис. 1. Схема итерации постобработки образов с оценочной системой
 
