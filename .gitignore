@@ -1,5 +1,8 @@
 *~
 /_site/
 /.bundle/
+.idea
+/.idea/
+/idea
 /.jekyll-cache/
 /Gemfile.lock

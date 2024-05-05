@@ -17,4 +17,4 @@ asciidoctor:
     stylesdir: css
     source-highlighter: coderay
   # Build settings
-  # markdown: kramdown
+markdown: kramdown
