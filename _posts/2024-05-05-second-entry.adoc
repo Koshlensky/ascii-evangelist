@@ -2,7 +2,6 @@
 :showtitle:
 :page-navtitle: Статья по нейронным сетям на AsciiDoc
 :page-excerpt: Excerpt goes here.
-:imagesdir: /images
 :page-root: ../../../
 
 [NOTE]
@@ -58,6 +57,26 @@ a promising direction before, at the moment it holds potential in the field of a
 . обновление оценочного цикла до получения искомого результата.
 
 image::./images/1-nn-ru-ovsm.png[align="center"]
+
+123
+
+image::/images/1-nn-ru-ovsm.png[align="center"]
+
+123
+
+image::images/1-nn-ru-ovsm.png[align="center"]
+
+123
+
+image::images/1-nn-ru-ovsm.png[align="center"]
+
+123
+
+image::../../..images/1-nn-ru-ovsm.png[align="center"]
+
+123
+
+include::../images/include-variety-for-images.adoc[tag=second-entry-1]
 
 [.text-center]
 Рис. 1. Схема итерации постобработки образов с оценочной системой

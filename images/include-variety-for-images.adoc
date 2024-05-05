@@ -1,0 +1,18 @@
+= Include file for images
+//Лучше использовать теги, чем номера строк для include
+
+.2024-05-50-second-entry.adoc
+[%collapsible]
+====
+// tag::second-entry-1[]
+image:1-nn-ru-ovsm.png[]
+// end::second-entry-1[]
+
+// tag::second-entry-2[]
+image:2-nn-ru-ovsm.png[]
+// end::second-entry-2[]
+
+// tag::second-entry-3[]
+image:3-nn-ru-ovsm.png[]
+// end::second-entry-3[]
+====
